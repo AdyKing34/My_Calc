@@ -27,7 +27,7 @@ jobs:
 
       - name: Build with PyInstaller
         run: |
-          pyinstaller --noconfirm --onefile --windowed gui/main.py
+          pyinstaller --noconfirm --onefile --windowed main.py
 
       - name: Upload EXE to Artifacts
         uses: actions/upload-artifact@v3

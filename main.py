@@ -1,4 +1,5 @@
 from PyQt6 import QtCore, QtWidgets
+import yaml
 
 # Defining the User Interface (UI) class for the calculator application
 class Ui_Form(object):
@@ -191,7 +192,7 @@ class Ui_Form(object):
         self.pushButton_18.setText(_translate("Form", "AC"))
         self.label.setText(_translate("Form", ""))
 
-# Define functions to append  
+# Define functions to append
     def num1(self):
         number = self.label.text()
         self.label.setText(number + "1")

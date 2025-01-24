@@ -1,5 +1,4 @@
 from PyQt6 import QtCore, QtWidgets
-import yaml
 
 # Defining the User Interface (UI) class for the calculator application
 class Ui_Form(object):
